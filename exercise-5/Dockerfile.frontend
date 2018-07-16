@@ -1,0 +1,14 @@
+FROM node:9.11.2-alpine
+
+WORKDIR /app
+
+COPY ./client/package.json ./package.json
+
+RUN npm install
+
+COPY ./client .
+
+EXPOSE 3000
+
+CMD npm start
+

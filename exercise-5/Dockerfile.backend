@@ -1,0 +1,12 @@
+FROM node:9.11.2-alpine
+
+COPY ./server/package.json package.json
+
+RUN npm install
+
+COPY ./server .
+
+EXPOSE 8000
+
+CMD npm start
+
