@@ -9,4 +9,7 @@ List of images used in this exercise:
 - postgres:9.6
 - mongo:3.6.6-jessie
 
+Your task is to create the `docker-compose.yml` file for each exercise. Further instructions are inside each folder.
+
+Solutions are prepared in the `completed` branch.
 
